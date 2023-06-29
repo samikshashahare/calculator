@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<style>
+    .calci{
+        background-color: #1f1f14;
+        height:530px;
+        width:350px;
+        margin-left:auto;
+        margin-right:auto;
+        border-radius:20px;
+        margin-top:30px;
+        padding:10px;
+        padding-bottom:50px;
+    }
+
+    .brand{
+        color:#0086b3;
+        margin-right:20px;
+        font-size:20px;
+        margin-top:5px;
+        margin-left:5px;
+    }
+
+   
+    .cal-screen{
+        font-size:60px;
+        width:320px;
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 20px;
+        background-color: #476b6b;
+        margin-bottom:30px;
+        border-radius:5px;
+        border:0.3px solid blue;
+        
+         }
+
+
+      .button-row {
+         display:flex;
+        justify-content:space-evenly;
+        margin-top:20px;
+        margin-left:10px;
+        
+         }
+
+      .btn-row{
+        display:flex;
+        justify-content:space-evenly;
+        margin-top:20px;
+    
+         }
+
+      .calci-btn {
+        background-color:#2e2e1f;
+        font-size:40px;
+        color:#33adff;
+        height:50px;
+        width:70px;
+        border-radius:10px;
+        cursor:pointer;
+        border:none;
+        
+         }
+
+       .calci-btn:hover {
+        font-size:45px;
+        box-shadow: 0px 0px 5px 2px;
+        transition: 0.5s;
+        border-radius:10px;
+       }
+
+    .bg-color{
+        background-color: #0066ff;
+        color:white;
+    }
+
+    .bg2-color{
+        background-color: #ff8000;
+        color:white;
+        width:110px;
+
+    } .small-screen-container {
+         display: flex;
+         justify-content: end;
+         margin-right: 20px;
+     }
+       
+       .small-screen {
+        height:25px;
+        width: 30px;
+        background-color: #476b6b;
+        border:1px solid black;
+       }
+
+   
+</style>
+<body>
+    <div class="calci">
+
+        <p class="brand">
+            <i>CASIO</i></br> 
+                fx-991ES PLUS
+        </p>
+
+        <input type="text" class="cal-screen"/>
+
+        <div class="small-screen-container">
+            <div class="small-screen"></div>
+            <div  class="small-screen"></div>
+            <div  class="small-screen"></div>
+    
+
+        
+    </div>
+        
+        <div class="button-row">
+            <button class="calci-btn bg2-color ">AC</button>
+            <button class="calci-btn bg2-color">C</button>
+            <button class="calci-btn bg-color">=</button>
+
+        </div>
+        <div class="btn-row">
+            <button class="calci-btn">1</button>
+            <button class="calci-btn">2</button>
+            <button class="calci-btn">3</button>
+            <button class="calci-btn bg-color">+</button>
+        </div>
+
+        
+       <div class="btn-row">
+            <button class="calci-btn">4</button>
+            <button class="calci-btn">5</button>
+            <button class="calci-btn">6</button>
+            <button class="calci-btn bg-color">-</button>
+       </div>
+
+           
+        <div class="btn-row">
+             <button class="calci-btn">7</button>
+             <button class="calci-btn">8</button>
+             <button class="calci-btn">9</button>
+             <button class="calci-btn bg-color">x</button>
+        </div>
+
+               
+        <div class="btn-row">
+             <button class="calci-btn">.</button>
+             <button class="calci-btn">0</button>
+             <button class="calci-btn">%</button>
+             <button class="calci-btn bg-color">/</button>
+        </div>
+
+       
+    </div>
+</body>
+</html>
